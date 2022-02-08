@@ -22,7 +22,7 @@ function auth(redirectUnauthenticated = true) {
                         req.user = user;
                         req.isLogged = true;
                         next();
-                    })
+                    });
             })
             .catch(err => {
                 if (!redirectUnauthenticated) {
@@ -38,7 +38,7 @@ function auth(redirectUnauthenticated = true) {
                 }
                 next(err);
             });
-    }
+    };
 }
 
 module.exports = auth;
