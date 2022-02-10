@@ -17,6 +17,12 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     HttpClientModule,
   ],
+  exports: [
+    HeaderComponent,
+    AsideComponent,
+    FooterComponent
+  ],
+
   providers: []
 })
 export class CoreModule { }
