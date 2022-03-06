@@ -4,8 +4,8 @@ Here I actually place some of my preparation for Angular course in February 2022
 
 Topics during the course:
 
-* - [ ] - Introduction to Angular and TypeScript
-* - [ ] - Components
+* - [x] - Introduction to Angular and TypeScript
+* - [x] - Components
 * - [ ] - DI, Intro to RxJS, Services
 * - [ ] - Modules and Routing
 * - [ ] - Forms
@@ -14,7 +14,7 @@ Topics during the course:
 
 Workshop:
 
-* - [ ] - Components
+* - [x] - Components
 * - [ ] - Modules and Routing
 * - [ ] - Forms
 * - [ ] - Pipes, Interceptors and Subjects
