@@ -1,6 +1,6 @@
 Goals for this workshop:
 
-Workshop 02
+**Workshop 02**
 
 [ ] - proper navbar
 [ ] - home page with authentication
@@ -11,3 +11,7 @@ Workshop 02
 [ ] - create theme
 [ ] - profile page
 [ ] - 404
+___
+**Workshop 03**
+___
+**Workshop 04**
