@@ -6,7 +6,7 @@ Topics during the course:
 
 * - [x] - Introduction to Angular and TypeScript
 * - [x] - Components
-* - [ ] - DI, Intro to RxJS, Services
+* - [x] - DI, Intro to RxJS, Services
 * - [ ] - Modules and Routing
 * - [ ] - Forms
 * - [ ] - Pipes, Interceptors and Subjects
