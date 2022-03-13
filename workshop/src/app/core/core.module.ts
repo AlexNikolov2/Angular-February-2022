@@ -5,7 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { LocalStorage } from './injection-tokens';
-import { AuthActivate } from './guards/auth.guard';
+import { AuthActivate } from './guards/auth.activate';
 
 @NgModule({
   declarations: [
