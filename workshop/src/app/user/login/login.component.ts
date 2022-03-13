@@ -1,15 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLock } from '@fortawesome/free-solid-svg-icons';
+import { UserService } from '../user.service';
 
 @Component({
-  selector: 'app-login',
+  selector: 'softuni-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
 
-  constructor() { }
+  icons = {
+    faEnvelope,
+    faLock
+  };
 
-  ngOnInit(): void {
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private userService: UserService,
+    private router: Router
+  ) { }
+
+  login(email: string, password: string): void {
+    this.userService.login(email, password)
+    const redirectUrl = this.activatedRoute.snapshot.queryParams['redirectUrl'] || '/';
+    this.router.navigate([redirectUrl]);
   }
-
 }

@@ -1,7 +1,7 @@
-
 import { Component } from '@angular/core';
-import {ContentService} from './content.service';
-import {IPost} from './shared/interfaces';
+import { ContentService } from './content.service';
+import { IPost } from './shared/interfaces';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -20,4 +20,5 @@ export class AppComponent {
     this.recentPosts = undefined;
     this.contentService.loadPosts(5).subscribe(posts => this.recentPosts = posts);
   }
+
 }
