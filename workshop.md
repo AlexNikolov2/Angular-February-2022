@@ -4,15 +4,15 @@ Goals for this workshop:
 
 //project has been initialized at least, tomorrow big work
 
-[ ] - proper navbar
-[ ] - home page with authentication
-[ ] - register
-[ ] - login page
-[ ] - themes, log in and Logout
-[ ] - theme comments
-[ ] - create theme
-[ ] - profile page
-[ ] - 404
+[x] - proper navbar
+[x] - home page with authentication
+[x] - register
+[x] - login page
+[x] - themes, log in and Logout
+[x] - theme comments
+[x] - create theme
+[x] - profile page
+[x] - 404
 ___
 **Workshop 03**
 ___
