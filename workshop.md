@@ -13,5 +13,10 @@ Goals for this workshop:
 [x] - 404
 ___
 **Workshop 03**
+
+[ ] - Forms for Login and Register
+[ ] - Create Theme
+[ ] - Profile Page Edit
+[ ] - Form Validation
 ___
 **Workshop 04**
