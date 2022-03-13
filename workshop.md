@@ -2,8 +2,6 @@ Goals for this workshop:
 
 **Workshop 02**
 
-//project has been initialized at least, tomorrow big work
-
 [x] - proper navbar
 [x] - home page with authentication
 [x] - register
