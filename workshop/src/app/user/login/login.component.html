@@ -1,4 +1,3 @@
-
 <div class="container">
   <form #form="ngForm" class="login" action="" method="post" (ngSubmit)="login(form)" autocomplete="off">
 
@@ -16,10 +15,10 @@
       </p>
 
       <ng-container *ngIf="emailInput.touched">
-        <p *ngIf="emailInput.errors?.required" class="error">
+        <p *ngIf="emailInput.errors?.['required']" class="error">
           Email is required!
         </p>
-        <p *ngIf="emailInput.errors?.invalidEmail" class="error">
+        <p *ngIf="emailInput.errors?.['invalidEmail']" class="error">
           Email is not valid!
         </p>
       </ng-container>
@@ -34,10 +33,10 @@
           [minlength]="4" required>
       </p>
       <ng-container *ngIf="passwordInput.touched">
-        <p *ngIf="passwordInput.errors?.required" class="error">
+        <p *ngIf="passwordInput.errors?.['required']" class="error">
           Password is required!
         </p>
-        <p *ngIf="passwordInput.errors?.minlength" class="error">
+        <p *ngIf="passwordInput.errors?.['minlength']" class="error">
           Password must be at least 4 characters!
         </p>
       </ng-container>

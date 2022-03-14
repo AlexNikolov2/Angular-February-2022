@@ -1,3 +1,4 @@
+
 <header>
   <div class="mini-navbar-wrap">
     <div class="logo-wrap">
@@ -13,7 +14,7 @@
         </li>
       </ul>
       <ul *ngIf="isLogged">
-        <li routerLink="/profile">{{firstName}}'s profile</li>
+        <li routerLink="/profile">{{username}}'s profile</li>
         <li (click)="logout()">Logout</li>
       </ul>
     </div>

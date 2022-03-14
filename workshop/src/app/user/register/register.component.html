@@ -11,10 +11,10 @@
           formControlName="username">
       </p>
       <ng-container *ngIf="form.get('username')?.touched">
-        <p *ngIf="form.get('username')?.errors?.required" class="error">
+        <p *ngIf="form.get('username')?.errors?.['required']" class="error">
           Username is required!
         </p>
-        <p *ngIf="form.get('username')?.errors?.minlength" class="error">
+        <p *ngIf="form.get('username')?.errors?.['minlength']" class="error">
           Username should be > 4
         </p>
       </ng-container>
@@ -26,10 +26,10 @@
       </p>
 
       <ng-container *ngIf="form.get('email')?.touched">
-        <p *ngIf="form.get('email')?.errors?.required" class="error">
+        <p *ngIf="form.get('email')?.errors?.['required']" class="error">
           Email is required!
         </p>
-        <p *ngIf="form.get('email')?.errors?.invalidEmail" class="error">
+        <p *ngIf="form.get('email')?.errors?.['invalidEmail']" class="error">
           Email is not valid!
         </p>
       </ng-container>
@@ -51,10 +51,10 @@
       </p>
 
       <ng-container *ngIf="form.get('password')?.touched">
-        <p *ngIf="form.get('password')?.errors?.required" class="error">
+        <p *ngIf="form.get('password')?.errors?.['required']" class="error">
           Password is required!
         </p>
-        <p *ngIf="form.get('password')?.errors?.minlength" class="error">
+        <p *ngIf="form.get('password')?.errors?.['minlength']" class="error">
           Password must be at least 4 characters!
         </p>
       </ng-container>
@@ -66,10 +66,10 @@
       </p>
 
       <ng-container *ngIf="form.get('rePassword')?.touched">
-        <p *ngIf="form.get('rePassword')?.errors?.required" class="error">
+        <p *ngIf="form.get('rePassword')?.errors?.['required']" class="error">
           Repeat Password is required!
         </p>
-        <p *ngIf="form.get('rePassword')?.errors?.sameValue" class="error">
+        <p *ngIf="form.get('rePassword')?.errors?.['sameValue']" class="error">
           Repeat Password does not match password!
         </p>
       </ng-container>
