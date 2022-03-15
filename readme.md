@@ -15,8 +15,8 @@ Topics during the course:
 Workshop:
 
 * - [x] - Components
-* - [ ] - Modules and Routing
-* - [ ] - Forms
+* - [x] - Modules and Routing
+* - [x] - Forms
 * - [ ] - Pipes, Interceptors and Subjects
 
 Project:
