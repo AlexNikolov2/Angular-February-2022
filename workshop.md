@@ -21,6 +21,8 @@ ___
 ___
 **Workshop 04**
 
+//work at core not fully completed
+
 [ ] - Interceptors for auth and error handling
 [ ] - Lazy Loading
 [ ] - Pipes
