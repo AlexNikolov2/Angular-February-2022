@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { UserService } from 'src/app/user/user.service';
+import { UserService } from 'src/app/core/services/user.service';
 
 @Component({
   selector: 'app-header',
@@ -23,7 +23,8 @@ export class HeaderComponent {
   ) { }
 
   logout(): void {
-    this.userService.logout();
-    this.router.navigate(['/']);
+    this.userService.logout().subscribe(() => {
+      this.router.navigate(['/']);
+    });
   }
 }
