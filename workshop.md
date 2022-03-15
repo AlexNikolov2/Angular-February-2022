@@ -20,3 +20,7 @@ ___
 [x] - Form Validation
 ___
 **Workshop 04**
+
+[ ] - Interceptors for auth and error handling
+[ ] - Lazy Loading
+[ ] - Pipes
