@@ -1,11 +1,10 @@
-
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLock } from '@fortawesome/free-solid-svg-icons';
 import { emailValidator } from 'src/app/shared/validators';
-import { UserService } from '../user.service';
+import { UserService } from '../../core/services/user.service';
 
 @Component({
   selector: 'softuni-login',

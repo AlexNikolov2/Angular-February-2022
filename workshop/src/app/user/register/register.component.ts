@@ -3,14 +3,14 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { emailValidator, sameValueAsFactory } from 'src/app/shared/validators';
-import { UserService } from '../user.service';
+import { UserService } from '../../core/services/user.service';
 
 @Component({
   selector: 'softuni-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.scss']
 })
-export class RegisterComponent implements OnDestroy {
+export class RegisterComponent /*implements OnDestroy*/ {
 
   killSubscription = new Subject();
 
@@ -44,9 +44,9 @@ export class RegisterComponent implements OnDestroy {
     })
   }
 
-  ngOnDestroy(): void {
+  /*ngOnDestroy(): void {
     this.killSubscription.next();
     this.killSubscription.complete();
-  }
+  }*/
 
 }

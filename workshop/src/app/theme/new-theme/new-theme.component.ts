@@ -1,14 +1,14 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ContentService } from 'src/app/content.service';
+import { ContentService } from 'src/app/core/services/content.service';
 
 @Component({
-  selector: 'app-new-theme',
+  selector: 'softuni-new-theme',
   templateUrl: './new-theme.component.html',
   styleUrls: ['./new-theme.component.scss']
 })
-export class NewThemeComponent{
+export class NewThemeComponent {
 
   constructor(
     private contentService: ContentService,
@@ -16,17 +16,14 @@ export class NewThemeComponent{
   ) { }
 
   createTheme(form: NgForm): void {
-    if( form.invalid){
-      return;
-    }
+    if (form.invalid) { return; }
     this.contentService.saveTheme(form.value).subscribe({
       next: () => {
         this.router.navigate(['/themes']);
       },
-      error: (err: any) => {
-        console.error(err);
+      error: (err) => {
+        console.log(err);
       }
     })
   }
-
 }
