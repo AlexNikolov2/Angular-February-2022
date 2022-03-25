@@ -8,7 +8,7 @@ Topics during the course:
 * - [x] - Components
 * - [x] - DI, Intro to RxJS, Services
 * - [x] - Modules and Routing
-* - [ ] - Forms
+* - [x] - Forms
 * - [ ] - Pipes, Interceptors and Subjects
 * - [ ] - State Management
 
@@ -16,7 +16,7 @@ Workshop:
 
 * - [x] - Components
 * - [x] - Modules and Routing
-* - [x] - Forms
+* - [x] - Forms // gonna watch it tmrw
 * - [ ] - Pipes, Interceptors and Subjects
 
 Project:
