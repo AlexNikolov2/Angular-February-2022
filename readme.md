@@ -16,7 +16,7 @@ Workshop:
 
 * - [x] - Components
 * - [x] - Modules and Routing
-* - [x] - Forms // gonna watch it tmrw
+* - [x] - Forms
 * - [x] - Pipes, Interceptors and Subjects
 
 Project:
