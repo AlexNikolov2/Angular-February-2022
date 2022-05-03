@@ -1,1 +1,9 @@
-<p>home works!</p>
+<input type="text" placeholder="Filter By Title" (input)="filterByName($event)">
+
+<button (click)="markAllTodosAsCompleted()"> Mark all as completed </button>
+
+<div *ngFor="let todoItem of todos">
+    <app-todo-item [todo]="todoItem" 
+        (completeStateChange)="handleStateChange($event)">
+    </app-todo-item>
+</div>
