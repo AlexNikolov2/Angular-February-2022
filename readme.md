@@ -9,16 +9,20 @@ Topics during the course:
 * - [x] - DI, Intro to RxJS, Services
 * - [x] - Modules and Routing
 * - [x] - Forms
-* - [ ] - Pipes, Interceptors and Subjects
-* - [ ] - State Management
+* - [x] - Pipes, Interceptors and Subjects
+* - [x] - State Management
 
 Workshop:
 
 * - [x] - Components
 * - [x] - Modules and Routing
-* - [x] - Forms // gonna watch it tmrw
-* - [ ] - Pipes, Interceptors and Subjects
+* - [x] - Forms
+* - [x] - Pipes, Interceptors and Subjects
 
 Project:
 
 **Sport and Show Forum**
+
+Result: 6.00/6.00
+
+Certificate: https://softuni.bg/certificates/details/132093/b1ffb80d
